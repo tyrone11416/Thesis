@@ -1,13 +1,13 @@
-state,region,station_name,county,local,Infection Suseptability,Infection Isolation,Rate of Spread
-Pennsylvania,BB,Node 306,306,307,,,
-Pennsylvania,BB,Node 306,306,308,,,
-Pennsylvania,BB,Node 306,306,309,,,
-Pennsylvania,BB,Node 310,310,311,,,
-Pennsylvania,BB,Node 310,310,312,,,
-Pennsylvania,BB,Node 310,310,313,,,
-Pennsylvania,BB,Node 314,314,315,,,
-Pennsylvania,BB,Node 314,314,316,,,
-Pennsylvania,BB,Node 314,314,317,,,
-Pennsylvania,BB,Node 318,318,319,,,
-Pennsylvania,BB,Node 318,318,320,,,
-Pennsylvania,BB,Node 318,318,321,,,
+state,state_node_size,region,region_node_size,station_name,county,county_node_size,local,local_node_size
+Pennsylvania,500,BB,350,Node 306,306,250,307,100
+Pennsylvania,500,BB,350,Node 306,306,250,308,100
+Pennsylvania,500,BB,350,Node 306,306,250,309,100
+Pennsylvania,500,BB,350,Node 310,310,250,311,100
+Pennsylvania,500,BB,350,Node 310,310,250,312,100
+Pennsylvania,500,BB,350,Node 310,310,250,313,100
+Pennsylvania,500,BB,350,Node 314,314,250,315,100
+Pennsylvania,500,BB,350,Node 314,314,250,316,100
+Pennsylvania,500,BB,350,Node 314,314,250,317,100
+Pennsylvania,500,BB,350,Node 318,318,250,319,100
+Pennsylvania,500,BB,350,Node 318,318,250,320,100
+Pennsylvania,500,BB,350,Node 318,318,250,321,100
