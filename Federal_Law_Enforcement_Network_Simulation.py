@@ -16,6 +16,8 @@ Susceptible = 0.25  # Probability of being Susceptible
 Initial_Infection = 0.25  # Probability that a patch will be infected at the beginning
 P_init_local = 0.50  # made this high to weight the edge of the graph to start
 
+n_size = []
+
 local_infection = random.uniform(0.01, 0.45)
 county_infection = random.uniform(0.01, 0.25)
 region_infection = 0.01
@@ -25,7 +27,7 @@ state_infection = 0.001
 G = nx.Graph()
 plt.figure(figsize=(20, 15))
 Time = [0]
-mFileName = "stations.csv"
+mFileName = "Florida_Law_Enforcement_Network.csv"
 counter = 0
 
 
@@ -47,6 +49,8 @@ def LoadData(file):
     p_top = patch(Stat, counter)
     node = G.add_node(p_top)
     counter = counter + 1
+    n_size.append(5000)
+
 
     with open(file, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -73,7 +77,8 @@ def LoadData(file):
 
             # if its a new state make a new top node.
             if state != oldstate:
-                Stat = 1 if np.random.uniform() < state_infection else 0
+                #Stat = 1 if np.random.uniform() < state_infection else 0
+                Stat = float(row['state_infection'])
                 Pos = (np.random.uniform() * 10 - 5, np.random.uniform() * 10 - 5)
                 p_state = patch(Stat, Pos)
                 G.add_node(p_state)
@@ -81,10 +86,12 @@ def LoadData(file):
                 state_counter = counter
                 counter = counter + 1
                 oldstate = state
+                n_size.append(int(row['state_node_size']))
 
             region = row['region']
             if region != oldregion:
-                Stat = 1 if np.random.uniform() < region_infection else 0
+                #Stat = 1 if np.random.uniform() < region_infection else 0
+                Stat = float(row['region_infection'])
                 Pos = (np.random.uniform() * 10 - 5, np.random.uniform() * 10 - 5)
                 p_reg = patch(Stat, Pos)
                 G.add_node(p_reg)
@@ -92,11 +99,13 @@ def LoadData(file):
                 region_counter = counter
                 counter = counter + 1
                 oldregion = region
+                n_size.append(int(row['region_node_size']))
 
 
             county = row['county']
             if county != oldcounty:
-                Stat = 1 if np.random.uniform() < county_infection else 0
+                #Stat = 1 if np.random.uniform() < county_infection else 0
+                Stat = float(row['county_infection'])
                 Pos = (np.random.uniform() * 10 - 5, np.random.uniform() * 10 - 5)
                 p_count = patch(Stat, Pos)
                 G.add_node(p_count, weight=1)
@@ -104,10 +113,11 @@ def LoadData(file):
                 county_counter = counter
                 counter = counter + 1
                 oldcounty = county
+                n_size.append(int(row['county_node_size']))
 
             local = row['local']
             if local != oldlocal:
-                Stat = 1 if np.random.uniform() < local_infection else 0
+                Stat = float(row['local_infection'])
                 Pos = (np.random.uniform() * 10 - 5, np.random.uniform() * 10 - 5)
                 # local Level
                 p_loc = patch(Stat, Pos)
@@ -115,6 +125,7 @@ def LoadData(file):
                 G.add_edge(p_count, p_loc, weight=.25)
                 local_counter = counter
                 counter = counter + 1
+                n_size.append(int(row['local_node_size']))
 
 
 
@@ -156,164 +167,10 @@ def main():
     bw_centrality = nx.betweenness_centrality(G, weight=10)
     print(bw_centrality)
 
-    nx.draw(G, center=1581, node_size=(5000, 3000,
-                                       1500,  # Region A
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region B
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region C
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region D
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region E
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region F
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       3000,
-                                       1500,  # Region AA
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region BB
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region CC
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region DD
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region EE
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region FF
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region GG
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region HH
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region JJ
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region KK
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region LL
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region MM
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region NN
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500,  # Region PP
-                                       1500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region RR
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200), node_color=occup, with_labels=True, cmap=plt.cm.plasma,
+
+    
+
+    nx.draw(G, center=1581, node_size=(n_size), node_color=occup, with_labels=True, cmap=plt.cm.plasma,
             vmin=0, vmax=1)
     plt.savefig('Federal_Law_Enforcement_network_start_infection.pdf')
     plt.show()
@@ -321,164 +178,7 @@ def main():
     Infection = [np.sum([n.status for n in G]) / float(Agencies)]
     Simulate(Infection)
     plt.figure(figsize=(20, 15))
-    nx.draw(G, center=1581, node_size=(5000, 3000,
-                                       1500,  # Region A
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region B
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region C
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region D
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region E
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region F
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       3000,
-                                       1500,  # Region AA
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region BB
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region CC
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region DD
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region EE
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region FF
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region GG
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region HH
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region JJ
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region KK
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region LL
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region MM
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region NN
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500,  # Region PP
-                                       1500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       1500,  # Region RR
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200,
-                                       500, 200, 200, 200), node_color=[n.status for n in G], with_labels=False,
+    nx.draw(G, center=1581, node_size=(n_size), node_color=[n.status for n in G], with_labels=False,
             cmap=plt.cm.plasma, vmin=0, vmax=1)
     plt.savefig('Federal_Law_Enforcement_network_end_infection.png')
     plt.show()
