@@ -1,202 +1,202 @@
-state,region,station_name,county,local,Infection Suseptability,Infection Isolation,Rate of Spread
-Florida,A,Node 2,Node 2,Node 3,0.02,,
-Florida,A,Node 2,Node 2,Node 4,,,
-Florida,A,Node 2,Node 2,Node 5,,,
-Florida,A,Node 6,Node 6,Node 7,,,
-Florida,A,Node 6,Node 6,Node 8,,,
-Florida,A,Node 6,Node 6,Node 9,,,
-Florida,A,Node 10,Node 10,Node 11,,,
-Florida,A,Node 10,Node 10,Node 12,,,
-Florida,A,Node 10,Node 10,Node 13,,,
-Florida,A,Node 14,Node 14,Node 15,,,
-Florida,A,Node 14,Node 14,Node 16,,,
-Florida,A,Node 14,Node 14,Node 17,,,
-Florida,A,Node 18,Node 18,Node 19,,,
-Florida,A,Node 18,Node 18,Node 20,,,
-Florida,A,Node 18,Node 18,Node 21,,,
-Florida,A,Node 22,Node 22,Node 23,,,
-Florida,A,Node 22,Node 22,Node 24,,,
-Florida,A,Node 22,Node 22,Node 25,,,
-Florida,A,Node 26,Node 26,Node 27,,,
-Florida,A,Node 26,Node 26,Node 28,,,
-Florida,A,Node 26,Node 26,Node 29,,,
-Florida,A,Node 30,Node 30,Node 31,,,
-Florida,A,Node 30,Node 30,Node 32,,,
-Florida,A,Node 30,Node 30,Node 33,,,
-Florida,A,Node 34,Node 34,Node 35,,,
-Florida,A,Node 34,Node 34,Node 36,,,
-Florida,A,Node 34,Node 34,Node 37,,,
-Florida,A,Node 38,Node 38,Node 39,,,
-Florida,A,Node 38,Node 38,Node 40,,,
-Florida,A,Node 38,Node 38,Node 41,,,
-Florida,B ,Node 43,Node 43,Node 44,,,
-Florida,B ,Node 43,Node 43,Node 45,,,
-Florida,B ,Node 43,Node 43,Node 47,,,
-Florida,B ,Node 48,Node 48,Node 49,,,
-Florida,B ,Node 48,Node 48,Node 50,,,
-Florida,B ,Node 48,Node 48,Node 51,,,
-Florida,B ,Node 52,Node 52,Node 53,,,
-Florida,B ,Node 52,Node 52,Node 54,,,
-Florida,B ,Node 52,Node 52,Node 55,,,
-Florida,B ,Node 56,Node 56,Node 57,,,
-Florida,B ,Node 56,Node 56,Node 58,,,
-Florida,B ,Node 56,Node 56,Node 59,,,
-Florida,B ,Node 60,Node 60,Node 61,,,
-Florida,B ,Node 60,Node 60,Node 62,,,
-Florida,B ,Node 60,Node 60,Node 63,,,
-Florida,B ,Node 64,Node 64,Node 65,,,
-Florida,B ,Node 64,Node 64,Node 66,,,
-Florida,B ,Node 64,Node 64,Node 67,,,
-Florida,B ,Node 68,Node 68,Node 69,,,
-Florida,B ,Node 68,Node 68,Node 70,,,
-Florida,B ,Node 68,Node 68,Node 71,,,
-Florida,B ,Node 72,Node 72,Node 73,,,
-Florida,B ,Node 72,Node 72,Node 74,,,
-Florida,B ,Node 72,Node 72,Node 75,,,
-Florida,B ,Node 76,Node 76,Node 77,,,
-Florida,B ,Node 76,Node 76,Node 78,,,
-Florida,B ,Node 76,Node 76,Node 79,,,
-Florida,B ,Node 80,Node 80,Node 81,,,
-Florida,B ,Node 80,Node 80,Node 82,,,
-Florida,B ,Node 80,Node 80,Node 83,,,
-Florida,B ,Node 84,Node 84,Node 85,,,
-Florida,B ,Node 84,Node 84,Node 86,,,
-Florida,B ,Node 84,Node 84,Node 87,,,
-Florida,B ,Node 88,Node 88,Node 89,,,
-Florida,B ,Node 88,Node 88,Node 90,,,
-Florida,B ,Node 88,Node 88,Node 91,,,
-Florida,B ,Node 92,Node 92,Node 93,,,
-Florida,B ,Node 92,Node 92,Node 94,,,
-Florida,B ,Node 92,Node 92,Node 95,,,
-Florida,C,Node 97,Node 97,Node 98,,,
-Florida,C,Node 97,Node 97,Node 99,,,
-Florida,C,Node 97,Node 97,Node 100,,,
-Florida,C,Node 101,Node 101,Node 102,,,
-Florida,C,Node 101,Node 101,Node 103,,,
-Florida,C,Node 101,Node 101,Node 104,,,
-Florida,C,Node 105,Node 105,Node 106,,,
-Florida,C,Node 105,Node 105,Node 107,,,
-Florida,C,Node 105,Node 105,Node 108,,,
-Florida,C,Node 109,Node 109,Node 110,,,
-Florida,C,Node 109,Node 109,Node 111,,,
-Florida,C,Node 109,Node 109,Node 112,,,
-Florida,C,Node 113,Node 113,Node 114,,,
-Florida,C,Node 113,Node 113,Node 115,,,
-Florida,C,Node 113,Node 113,Node 116,,,
-Florida,C,Node 117,Node 117,Node 118,,,
-Florida,C,Node 117,Node 117,Node 119,,,
-Florida,C,Node 117,Node 117,Node 120,,,
-Florida,C,Node 121,Node 121,Node 122,,,
-Florida,C,Node 121,Node 121,Node 123,,,
-Florida,C,Node 121,Node 121,Node 124,,,
-Florida,C,Node 125,Node 125,Node 126,,,
-Florida,C,Node 125,Node 125,Node 127,,,
-Florida,C,Node 125,Node 125,Node 128,,,
-Florida,C,Node 129,Node 129,Node 130,,,
-Florida,C,Node 129,Node 129,Node 131,,,
-Florida,C,Node 129,Node 129,Node 132,,,
-Florida,C,Node 133,Node 133,Node 134,,,
-Florida,C,Node 133,Node 133,Node 135,,,
-Florida,C,Node 133,Node 133,Node 136,,,
-Florida,C,Node 137,Node 137,Node 138,,,
-Florida,C,Node 137,Node 137,Node 139,,,
-Florida,C,Node 137,Node 137,Node 140,,,
-Florida,C,Node 141,Node 141,Node 142,,,
-Florida,C,Node 141,Node 141,Node 143,,,
-Florida,C,Node 141,Node 141,Node 144,,,
-Florida,C,Node 145,Node 145,Node 146,,,
-Florida,C,Node 145,Node 145,Node 147,,,
-Florida,C,Node 145,Node 145,Node 148,,,
-Florida,D,Node 150,Node 150,Node 151,,,
-Florida,D,Node 150,Node 150,Node 152,,,
-Florida,D,Node 150,Node 150,Node 153,,,
-Florida,D,Node 154,Node 154,Node 155,,,
-Florida,D,Node 154,Node 154,Node 156,,,
-Florida,D,Node 154,Node 154,Node 157,,,
-Florida,D,Node 158,Node 158,Node 159,,,
-Florida,D,Node 158,Node 158,Node 160,,,
-Florida,D,Node 158,Node 158,Node 161,,,
-Florida,D,Node 162,Node 162,Node 163,,,
-Florida,D,Node 162,Node 162,Node 164,,,
-Florida,D,Node 162,Node 162,Node 165,,,
-Florida,D,Node 166,Node 166,Node 167,,,
-Florida,D,Node 166,Node 166,Node 168,,,
-Florida,D,Node 166,Node 166,Node 169,,,
-Florida,D,Node 170,Node 170,Node 171,,,
-Florida,D,Node 170,Node 170,Node 172,,,
-Florida,D,Node 170,Node 170,Node 173,,,
-Florida,D,Node 174,Node 174,Node 175,,,
-Florida,D,Node 174,Node 174,Node 176,,,
-Florida,D,Node 174,Node 174,Node 177,,,
-Florida,D,Node 178,Node 178,Node 179,,,
-Florida,D,Node 178,Node 178,Node 180,,,
-Florida,D,Node 178,Node 178,Node 181,,,
-Florida,D,Node 182,Node 182,Node 183,,,
-Florida,D,Node 182,Node 182,Node 184,,,
-Florida,D,Node 182,Node 182,Node 185,,,
-Florida,E, Node 187, Node 187,Node 188,,,
-Florida,E, Node 187, Node 187,Node 189,,,
-Florida,E, Node 187, Node 187,Node 190,,,
-Florida,E, Node 191, Node 191,Node 192,,,
-Florida,E, Node 191, Node 191,Node 193,,,
-Florida,E, Node 191, Node 191,Node 194,,,
-Florida,E, Node 195, Node 195,Node 196,,,
-Florida,E, Node 195, Node 195,Node 197,,,
-Florida,E, Node 195, Node 195,Node 198,,,
-Florida,E,Node 199,Node 199,Node 200,,,
-Florida,E,Node 199,Node 199,Node 201,,,
-Florida,E,Node 199,Node 199,Node 202,,,
-Florida,E,Node 203,Node 203,Node 204,,,
-Florida,E,Node 203,Node 203,Node 205,,,
-Florida,E,Node 203,Node 203,Node 206,,,
-Florida,E,Node 207,Node 207,Node 208,,,
-Florida,E,Node 207,Node 207,Node 209,,,
-Florida,E,Node 207,Node 207,Node 210,,,
-Florida,E,Node 211,Node 211,Node 212,,,
-Florida,E,Node 211,Node 211,Node 213,,,
-Florida,E,Node 211,Node 211,Node 214,,,
-Florida,E,Node 215,Node 215,Node 216,,,
-Florida,E,Node 215,Node 215,Node 217,,,
-Florida,E,Node 215,Node 215,Node 218,,,
-Florida,E,Node 219,Node 219,Node 220,,,
-Florida,E,Node 219,Node 219,Node 221,,,
-Florida,E,Node 219,Node 219,Node 222,,,
-Florida,F,Node 234,Node 234,Node 235,,,
-Florida,F,Node 234,Node 234,Node 236,,,
-Florida,F,Node 234,Node 234,Node 237,,,
-Florida,F,Node 238,Node 238,Node 239,,,
-Florida,F,Node 238,Node 238,Node 240,,,
-Florida,F,Node 238,Node 238,Node 241,,,
-Florida,F,Node 242,Node 242,Node 243,,,
-Florida,F,Node 242,Node 242,Node 244,,,
-Florida,F,Node 242,Node 242,Node 245,,,
-Florida,F,Node 246,Node 246,Node 247,,,
-Florida,F,Node 246,Node 246,Node 248,,,
-Florida,F,Node 246,Node 246,Node 249,,,
-Florida,F,Node 250,Node 250,Node 251,,,
-Florida,F,Node 250,Node 250,Node 252,,,
-Florida,F,Node 250,Node 250,Node 253,,,
-Florida,F,Node 254,Node 254,Node 255,,,
-Florida,F,Node 254,Node 254,Node 256,,,
-Florida,F,Node 254,Node 254,Node 257,,,
-Florida,F,Node 258,Node 258,Node 259,,,
-Florida,F,Node 258,Node 258,Node 260,,,
-Florida,F,Node 258,Node 258,Node 261,,,
-Florida,F,Node 262,Node 262,Node 263,,,
-Florida,F,Node 262,Node 262,Node 264,,,
-Florida,F,Node 262,Node 262,Node 265,,,
-Florida,F,Node 266,Node 266,Node 267,,,
-Florida,F,Node 266,Node 266,Node 268,,,
-Florida,F,Node 266,Node 266,Node 269,,,
-Florida,G,Node 271,Node 271,Node 272,,,
-Florida,G,Node 271,Node 271,Node 273,,,
-Florida,G,Node 271,Node 271,Node 274,,,
-Florida,G,Node 275,Node 275,Node 276,,,
-Florida,G,Node 275,Node 275,Node 277,,,
-Florida,G,Node 275,Node 275,Node 278,,,
-Florida,G,Node 279,Node 279,Node 280,,,
-Florida,G,Node 279,Node 279,Node 281,,,
-Florida,G,Node 279,Node 279,Node 282,,,
-Florida,G,Node 283,Node 283,Node 284,,,
-Florida,G,Node 283,Node 283,Node 285,,,
-Florida,G,Node 283,Node 283,Node 286,,,
+state,state_node_size,state_infection,region,region_node_size,region_infection,station_name,county,county_node_size,county_infection,local,local_node_size,local_infection
+Florida,3000,0.001,A,1500,0.01,Node 2,Node 2,500,0.35,Node 3,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 2,Node 2,500,0.35,Node 4,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 2,Node 2,500,0.35,Node 5,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 6,Node 6,500,0.35,Node 7,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 6,Node 6,500,0.35,Node 8,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 6,Node 6,500,0.35,Node 9,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 10,Node 10,500,0.35,Node 11,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 10,Node 10,500,0.35,Node 12,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 10,Node 10,500,0.35,Node 13,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 14,Node 14,500,0.35,Node 15,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 14,Node 14,500,0.35,Node 16,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 14,Node 14,500,0.35,Node 17,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 18,Node 18,500,0.35,Node 19,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 18,Node 18,500,0.35,Node 20,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 18,Node 18,500,0.35,Node 21,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 22,Node 22,500,0.35,Node 23,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 22,Node 22,500,0.35,Node 24,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 22,Node 22,500,0.35,Node 25,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 26,Node 26,500,0.35,Node 27,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 26,Node 26,500,0.35,Node 28,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 26,Node 26,500,0.35,Node 29,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 30,Node 30,500,0.35,Node 31,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 30,Node 30,500,0.35,Node 32,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 30,Node 30,500,0.35,Node 33,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 34,Node 34,500,0.35,Node 35,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 34,Node 34,500,0.35,Node 36,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 34,Node 34,500,0.35,Node 37,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 38,Node 38,500,0.35,Node 39,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 38,Node 38,500,0.35,Node 40,200,0.75
+Florida,3000,0.001,A,1500,0.01,Node 38,Node 38,500,0.35,Node 41,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 43,Node 43,500,0.35,Node 44,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 43,Node 43,500,0.35,Node 45,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 43,Node 43,500,0.35,Node 47,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 48,Node 48,500,0.35,Node 49,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 48,Node 48,500,0.35,Node 50,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 48,Node 48,500,0.35,Node 51,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 52,Node 52,500,0.35,Node 53,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 52,Node 52,500,0.35,Node 54,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 52,Node 52,500,0.35,Node 55,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 56,Node 56,500,0.35,Node 57,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 56,Node 56,500,0.35,Node 58,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 56,Node 56,500,0.35,Node 59,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 60,Node 60,500,0.35,Node 61,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 60,Node 60,500,0.35,Node 62,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 60,Node 60,500,0.35,Node 63,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 64,Node 64,500,0.35,Node 65,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 64,Node 64,500,0.35,Node 66,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 64,Node 64,500,0.35,Node 67,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 68,Node 68,500,0.35,Node 69,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 68,Node 68,500,0.35,Node 70,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 68,Node 68,500,0.35,Node 71,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 72,Node 72,500,0.35,Node 73,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 72,Node 72,500,0.35,Node 74,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 72,Node 72,500,0.35,Node 75,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 76,Node 76,500,0.35,Node 77,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 76,Node 76,500,0.35,Node 78,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 76,Node 76,500,0.35,Node 79,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 80,Node 80,500,0.35,Node 81,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 80,Node 80,500,0.35,Node 82,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 80,Node 80,500,0.35,Node 83,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 84,Node 84,500,0.35,Node 85,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 84,Node 84,500,0.35,Node 86,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 84,Node 84,500,0.35,Node 87,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 88,Node 88,500,0.35,Node 89,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 88,Node 88,500,0.35,Node 90,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 88,Node 88,500,0.35,Node 91,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 92,Node 92,500,0.35,Node 93,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 92,Node 92,500,0.35,Node 94,200,0.75
+Florida,3000,0.001,B ,1500,0.01,Node 92,Node 92,500,0.35,Node 95,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 97,Node 97,500,0.35,Node 98,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 97,Node 97,500,0.35,Node 99,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 97,Node 97,500,0.35,Node 100,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 101,Node 101,500,0.35,Node 102,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 101,Node 101,500,0.35,Node 103,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 101,Node 101,500,0.35,Node 104,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 105,Node 105,500,0.35,Node 106,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 105,Node 105,500,0.35,Node 107,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 105,Node 105,500,0.35,Node 108,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 109,Node 109,500,0.35,Node 110,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 109,Node 109,500,0.35,Node 111,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 109,Node 109,500,0.35,Node 112,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 113,Node 113,500,0.35,Node 114,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 113,Node 113,500,0.35,Node 115,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 113,Node 113,500,0.35,Node 116,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 117,Node 117,500,0.35,Node 118,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 117,Node 117,500,0.35,Node 119,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 117,Node 117,500,0.35,Node 120,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 121,Node 121,500,0.35,Node 122,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 121,Node 121,500,0.35,Node 123,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 121,Node 121,500,0.35,Node 124,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 125,Node 125,500,0.35,Node 126,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 125,Node 125,500,0.35,Node 127,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 125,Node 125,500,0.35,Node 128,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 129,Node 129,500,0.35,Node 130,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 129,Node 129,500,0.35,Node 131,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 129,Node 129,500,0.35,Node 132,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 133,Node 133,500,0.35,Node 134,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 133,Node 133,500,0.35,Node 135,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 133,Node 133,500,0.35,Node 136,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 137,Node 137,500,0.35,Node 138,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 137,Node 137,500,0.35,Node 139,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 137,Node 137,500,0.35,Node 140,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 141,Node 141,500,0.35,Node 142,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 141,Node 141,500,0.35,Node 143,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 141,Node 141,500,0.35,Node 144,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 145,Node 145,500,0.35,Node 146,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 145,Node 145,500,0.35,Node 147,200,0.75
+Florida,3000,0.001,C,1500,0.01,Node 145,Node 145,500,0.35,Node 148,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 150,Node 150,500,0.35,Node 151,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 150,Node 150,500,0.35,Node 152,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 150,Node 150,500,0.35,Node 153,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 154,Node 154,500,0.35,Node 155,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 154,Node 154,500,0.35,Node 156,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 154,Node 154,500,0.35,Node 157,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 158,Node 158,500,0.35,Node 159,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 158,Node 158,500,0.35,Node 160,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 158,Node 158,500,0.35,Node 161,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 162,Node 162,500,0.35,Node 163,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 162,Node 162,500,0.35,Node 164,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 162,Node 162,500,0.35,Node 165,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 166,Node 166,500,0.35,Node 167,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 166,Node 166,500,0.35,Node 168,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 166,Node 166,500,0.35,Node 169,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 170,Node 170,500,0.35,Node 171,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 170,Node 170,500,0.35,Node 172,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 170,Node 170,500,0.35,Node 173,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 174,Node 174,500,0.35,Node 175,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 174,Node 174,500,0.35,Node 176,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 174,Node 174,500,0.35,Node 177,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 178,Node 178,500,0.35,Node 179,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 178,Node 178,500,0.35,Node 180,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 178,Node 178,500,0.35,Node 181,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 182,Node 182,500,0.35,Node 183,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 182,Node 182,500,0.35,Node 184,200,0.75
+Florida,3000,0.001,D,1500,0.01,Node 182,Node 182,500,0.35,Node 185,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 187, Node 187,500,0.35,Node 188,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 187, Node 187,500,0.35,Node 189,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 187, Node 187,500,0.35,Node 190,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 191, Node 191,500,0.35,Node 192,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 191, Node 191,500,0.35,Node 193,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 191, Node 191,500,0.35,Node 194,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 195, Node 195,500,0.35,Node 196,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 195, Node 195,500,0.35,Node 197,200,0.75
+Florida,3000,0.001,E,1500,0.01, Node 195, Node 195,500,0.35,Node 198,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 199,Node 199,500,0.35,Node 200,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 199,Node 199,500,0.35,Node 201,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 199,Node 199,500,0.35,Node 202,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 203,Node 203,500,0.35,Node 204,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 203,Node 203,500,0.35,Node 205,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 203,Node 203,500,0.35,Node 206,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 207,Node 207,500,0.35,Node 208,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 207,Node 207,500,0.35,Node 209,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 207,Node 207,500,0.35,Node 210,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 211,Node 211,500,0.35,Node 212,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 211,Node 211,500,0.35,Node 213,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 211,Node 211,500,0.35,Node 214,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 215,Node 215,500,0.35,Node 216,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 215,Node 215,500,0.35,Node 217,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 215,Node 215,500,0.35,Node 218,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 219,Node 219,500,0.35,Node 220,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 219,Node 219,500,0.35,Node 221,200,0.75
+Florida,3000,0.001,E,1500,0.01,Node 219,Node 219,500,0.35,Node 222,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 234,Node 234,500,0.35,Node 235,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 234,Node 234,500,0.35,Node 236,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 234,Node 234,500,0.35,Node 237,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 238,Node 238,500,0.35,Node 239,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 238,Node 238,500,0.35,Node 240,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 238,Node 238,500,0.35,Node 241,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 242,Node 242,500,0.35,Node 243,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 242,Node 242,500,0.35,Node 244,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 242,Node 242,500,0.35,Node 245,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 246,Node 246,500,0.35,Node 247,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 246,Node 246,500,0.35,Node 248,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 246,Node 246,500,0.35,Node 249,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 250,Node 250,500,0.35,Node 251,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 250,Node 250,500,0.35,Node 252,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 250,Node 250,500,0.35,Node 253,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 254,Node 254,500,0.35,Node 255,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 254,Node 254,500,0.35,Node 256,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 254,Node 254,500,0.35,Node 257,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 258,Node 258,500,0.35,Node 259,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 258,Node 258,500,0.35,Node 260,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 258,Node 258,500,0.35,Node 261,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 262,Node 262,500,0.35,Node 263,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 262,Node 262,500,0.35,Node 264,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 262,Node 262,500,0.35,Node 265,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 266,Node 266,500,0.35,Node 267,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 266,Node 266,500,0.35,Node 268,200,0.75
+Florida,3000,0.001,F,1500,0.01,Node 266,Node 266,500,0.35,Node 269,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 271,Node 271,500,0.35,Node 272,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 271,Node 271,500,0.35,Node 273,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 271,Node 271,500,0.35,Node 274,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 275,Node 275,500,0.35,Node 276,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 275,Node 275,500,0.35,Node 277,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 275,Node 275,500,0.35,Node 278,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 279,Node 279,500,0.35,Node 280,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 279,Node 279,500,0.35,Node 281,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 279,Node 279,500,0.35,Node 282,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 283,Node 283,500,0.35,Node 284,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 283,Node 283,500,0.35,Node 285,200,0.75
+Florida,3000,0.001,G,1500,0.01,Node 283,Node 283,500,0.35,Node 286,200,0.75
